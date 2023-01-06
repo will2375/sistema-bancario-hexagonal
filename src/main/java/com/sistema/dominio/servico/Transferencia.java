@@ -2,11 +2,13 @@ package com.sistema.dominio.servico;
 
 import com.sistema.dominio.modelo.Conta;
 
+import javax.inject.Named;
 import java.math.BigDecimal;
 
 import static com.sistema.dominio.modelo.Erro.obrigatorio;
 import static java.util.Objects.isNull;
 
+@Named
 public class Transferencia  {
     public void transferencia(BigDecimal valor, Conta debito, Conta credito) {
         if (isNull(valor)) {
