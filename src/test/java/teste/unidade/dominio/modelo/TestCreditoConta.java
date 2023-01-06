@@ -1,7 +1,7 @@
 package teste.unidade.dominio.modelo;
 
-import conta.sistema.modelo.Conta;
-import conta.sistema.modelo.NegocioException;
+import com.sistema.dominio.modelo.Conta;
+import com.sistema.dominio.modelo.NegocioException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

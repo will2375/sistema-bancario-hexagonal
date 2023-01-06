@@ -1,4 +1,4 @@
-package com.sistema.sistema;
+package conta.sistema.dominio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

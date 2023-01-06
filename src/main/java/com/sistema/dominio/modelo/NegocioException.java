@@ -1,4 +1,4 @@
-package conta.sistema.modelo;
+package com.sistema.dominio.modelo;
 
 public class NegocioException extends RuntimeException {
 
