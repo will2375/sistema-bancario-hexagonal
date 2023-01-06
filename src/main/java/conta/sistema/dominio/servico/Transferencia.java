@@ -1,11 +1,11 @@
-package com.sistema.dominio.servico;
+package conta.sistema.dominio.servico;
 
-import com.sistema.dominio.modelo.Conta;
+import conta.sistema.dominio.modelo.Conta;
 
 import javax.inject.Named;
 import java.math.BigDecimal;
 
-import static com.sistema.dominio.modelo.Erro.obrigatorio;
+import static conta.sistema.dominio.modelo.Erro.obrigatorio;
 import static java.util.Objects.isNull;
 
 @Named

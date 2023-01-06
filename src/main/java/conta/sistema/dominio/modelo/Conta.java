@@ -1,9 +1,9 @@
-package com.sistema.dominio.modelo;
+package conta.sistema.dominio.modelo;
 
 import java.math.BigDecimal;
 
-import static com.sistema.dominio.modelo.Erro.obrigatorio;
-import static com.sistema.dominio.modelo.Erro.saldoInsuficiente;
+import static conta.sistema.dominio.modelo.Erro.obrigatorio;
+import static conta.sistema.dominio.modelo.Erro.saldoInsuficiente;
 import static java.util.Objects.isNull;
 
 public class Conta {

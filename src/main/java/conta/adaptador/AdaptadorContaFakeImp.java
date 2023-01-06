@@ -1,7 +1,7 @@
 package conta.adaptador;
 
-import com.sistema.dominio.modelo.Conta;
-import com.sistema.dominio.modelo.NegocioException;
+import conta.sistema.dominio.modelo.Conta;
+import conta.sistema.dominio.modelo.NegocioException;
 import conta.sistema.porta.ContaRepositorio;
 
 import javax.inject.Named;

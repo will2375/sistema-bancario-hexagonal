@@ -1,6 +1,6 @@
-package conta.sistema.casouso;
+package conta.sistema.casouso.porta;
 
-import com.sistema.dominio.modelo.Conta;
+import conta.sistema.dominio.modelo.Conta;
 
 import java.math.BigDecimal;
 

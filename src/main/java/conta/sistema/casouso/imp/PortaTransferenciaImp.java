@@ -1,15 +1,15 @@
 package conta.sistema.casouso.imp;
 
-import com.sistema.dominio.modelo.Conta;
-import com.sistema.dominio.servico.Transferencia;
-import conta.sistema.casouso.PortaTransferencia;
+import conta.sistema.dominio.modelo.Conta;
+import conta.sistema.dominio.servico.Transferencia;
+import conta.sistema.casouso.porta.PortaTransferencia;
 import conta.sistema.porta.ContaRepositorio;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.inject.Named;
 import java.math.BigDecimal;
 
-import static com.sistema.dominio.modelo.Erro.*;
+import static conta.sistema.dominio.modelo.Erro.*;
 import static java.util.Objects.isNull;
 
 @Named
